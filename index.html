@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">ธีรภัทร สังวาลเดช</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#เกี่ยวกับ">เกี่ยวกับ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">ธีรภัทร สังวาลเดช</div>
+        <div class="hamburder-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#เกี่ยวกับ" onclick="toggleMenu()">เกี่ยวกับ</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="secction__pic-container"><img src="./asdad2.png" alt="Terapat Profile Picture"></div>
+        <div class="section__text">
+            <p class="section__text__p1">สวัสดี ผม</p>
+            <h1 class="title">ธีรภัทร สังวาลเดช</h1>
+            <p class="section__text__p2">นักศึกษาวิทยาลัยเทคโนโลยีวิศวกรรมแหลมฉบัง</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./20251216_105750_0000.jpg')">RESUME</button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#เกี่ยวกับ'">เกี่ยวกับ</button>
+            </div>
+            <div id="socials_container"><img src="./youtube-123_64.png" alt="My Youtube" class="icon" onclick="location.href='https://www.youtube.com/@HARUMIZ1446'">
+            <img src="./discord-icon-43736.png" alt="My Discord" class="icon" onclick="location.href='https://discordapp.com/users/941727673795895356'"></div>
+        </div>
+    </section>
+    <section id="เกี่ยวกับ">
+        <p class="section__text__p1">ทำความรู้จัก</p>
+        <h1 class="title">เกี่ยวกับผม</h1>
+        <div class="section-container">
+            <div class="section__pic-container"><img src="./IMG20260214201756.jpg
+            " alt="Card" class="เกี่ยวกับภาพ">
+        </div>
+        <div class="about-dtails-container">
+            <div class="about-containers">
+                <div class="details-container"><img src="./—Pngtree—black map location icon_23267661.png" alt="Location" class="icon">
+                <h3>สถานที่อาศัย</h3>
+            <p>บ้านเลขที่ 207/37 หมู่ที่ 8<br \>อำเภอศรีราชา ตำบลทุ่งสุขลา จังหวัดชลบุรี</p></div>
+            <div class="details-container">
+                <img src="./pngegg.png
+                " alt="education" class="icon">
+                <h3>ศึกษา</h3>
+                <p>โรงเรียนทุ่งศุขลาพิทยา “กรุงไทยอนุเคราะห์"<br \>วิทยาลัยเทคโนโลยีวิศวกรรมแหลมฉบัง </p>
+            </div>
+            </div>
+            <div class="text-container"><p>สวัสดีครับ ผมชื่อ ธีรภัทร สังวาลเดช กำลังศึกษาอยู่ที่วิทยาลัยเทคโนโลยีวิศวกรรมแหลมฉบัง สาขาเทคโนโลยีสารสนเทศ (Information Technology)
+    ผมมีความสนใจเป็นพิเศษในด้านการพัฒนาเว็บไซต์ (Web Development) การออกแบบระบบฐานข้อมูล (Database Design) และการพัฒนาระบบโปรแกรมเพื่อใช้งานจริง
+    โดยมีความรู้พื้นฐานในการเขียนโปรแกรมภาษา HTML, CSS และ JavaScript และกำลังศึกษาเพิ่มเติมเกี่ยวกับการพัฒนาเว็บไซต์แบบ Full Stack
+    
+    นอกจากนี้ ผมยังมีความสนใจด้านการออกแบบกราฟิก และการสร้างโมเดล 3 มิติ (3D Modeling) โดยเฉพาะสไตล์ Anime
+    ซึ่งช่วยพัฒนาความคิดสร้างสรรค์ และทักษะด้านการออกแบบของผมให้ดียิ่งขึ้น
+    ผมเป็นคนที่ชอบเรียนรู้สิ่งใหม่ ๆ และพัฒนาตนเองอยู่เสมอ พร้อมที่จะเรียนรู้เทคโนโลยีใหม่ ๆ เพื่อเพิ่มทักษะและประสบการณ์ในสายงาน IT
+    
+    เป้าหมายของผมในอนาคตคือการเป็น Web Developer หรือ Full Stack Developer ที่มีความสามารถในการพัฒนาระบบเว็บไซต์ที่มีประสิทธิภาพ
+    ใช้งานง่าย และตอบโจทย์ผู้ใช้งานได้อย่างแท้จริง ผมมีความมุ่งมั่น ตั้งใจ และพร้อมที่จะพัฒนาตนเองเพื่อเติบโตในสายงานด้านเทคโนโลยีสารสนเทศต่อไป</p>
+            </div>
+        </div>
+        </div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
